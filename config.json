@@ -1,0 +1,8 @@
+{
+    "token": "your-bot-token",
+    "private": true,
+    "clientId":"your-client-id",
+    "guildId":"your-guild-id",
+    "dbToken":"your-db-token",
+    "logs": false
+}
