@@ -1,6 +1,6 @@
 # TypeScript Bot Template
 
-This is a TypeScript bot template created by washuu (@swaglimit on Discord).
+This is a TypeScript bot template created by cvrspark (@swaglimit on Discord).
 
 ## Configuration
 
