@@ -15,7 +15,7 @@ for (const folder of interactionFolders) {
         const filePath = path.join(commandsPath, file);
         const command = require(filePath).default;
         
-        ('data' in command && 'execute' in command)
+        (command && typeof command === "object" && "data" in command && "execute" in command)
             ? commands.push(command.data.toJSON())
             : console.warn(`Invalid command: ${filePath}`)   
     }
