@@ -1,12 +1,16 @@
 {
   "compilerOptions": {
     "resolveJsonModule": true,
-    "target": "ES2021",
-    "module": "commonjs",
+    "target": "es2024",
+    "module": "nodenext",
     "rootDir": "src",
     "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "typeRoots": ["src/core/types", "node_modules/@types"],
+    "noFallthroughCasesInSwitch": true
   },
   "include": ["src/**/*"]
 }
